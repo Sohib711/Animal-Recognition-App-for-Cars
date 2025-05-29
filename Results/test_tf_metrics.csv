@@ -1,0 +1,4 @@
+Model,Test Loss,Test Accuracy,Test Precision
+model 1,0.042,98.7,99.113
+model 2,0.052,98.45,99.192
+model 3,0.043,98.4,98.634

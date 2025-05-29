@@ -1,0 +1,10 @@
+keras==3.5.0
+matplotlib==3.9.2
+numpy==2.1.1
+pandas==2.2.3
+Pillow==10.4.0
+plotly==5.24.0
+scikit_learn==1.5.2
+tensorflow==2.17.0
+tensorflow_macos==2.15.0
+visualkeras==0.1.3

@@ -1,0 +1,24 @@
+models:
+  yolo_tiny:
+    weights: 'models/yolo_tiny/yolov3-tiny.weights'
+    config: 'models/yolo_tiny/yolov3-tiny.cfg'
+    classes: 'models/yolo_tiny/coco.names'
+    confidence_threshold: 0.3
+    nms_threshold: 0.4
+  classifier:
+    path: 'models/classification_model/tf_model_2.keras'
+    confidence_threshold: 0.8
+    classes:
+      - animal
+      - vehicle
+gui:
+  window_title: "Animal and Vehicle Detection with YOLO Tiny and pre-trained model"
+  window_size:
+    width: 800
+    height: 600
+alerts:
+  animal_detected: "CAREFULL: Animal detected!"
+performance:
+  frame_skip: 2
+  target_resolution: [416, 416]
+  batch_size: 1
